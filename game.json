@@ -1,0 +1,709 @@
+{
+    "passages": [
+      {
+        "text": "The Sun Rises in the North\n\nAn Epileye Production\n\nCreated by Gavin Price\n\n\n[[begin->Instructions]] ",
+        "links": [
+          {
+            "name": "begin",
+            "link": "Instructions",
+            "pid": "3"
+          }
+        ],
+        "name": "TitleCard",
+        "pid": "1",
+        "position": {
+          "x": "3301",
+          "y": "102"
+        }
+      },
+      {
+        "text": "\"What happened? Where am I? All I remember is darkness ... falling ... and ... a door? How did I get here, I must remember\". \n\n\"I recall very little, even my own name is a blurb. Ing..Imo.. uhh, It hurts to think even just a little\".\n\nI must walk forward\n\n[[walk forward->FirstSteps]] ",
+        "links": [
+          {
+            "name": "walk forward",
+            "link": "FirstSteps",
+            "pid": "4"
+          }
+        ],
+        "name": "Opening Fall",
+        "pid": "2",
+        "position": {
+          "x": "3303",
+          "y": "347"
+        }
+      },
+      {
+        "text": "TSRN is and interactive fiction game that requires a players physical input for the story to move along. Enjoy the game <3.\n[[next->Opening Fall]] ",
+        "links": [
+          {
+            "name": "next",
+            "link": "Opening Fall",
+            "pid": "2"
+          }
+        ],
+        "name": "Instructions",
+        "pid": "3",
+        "position": {
+          "x": "3302",
+          "y": "226"
+        }
+      },
+      {
+        "text": "\"Why can't I remember even the simpilest of things\". I can see a fork in the trail, but the right passage is covered in rumble. I should turn left. It's a more clear passage.\n\n[[left->LeftTurn1]] \n ",
+        "links": [
+          {
+            "name": "left",
+            "link": "LeftTurn1",
+            "pid": "5"
+          }
+        ],
+        "name": "FirstSteps",
+        "pid": "4",
+        "position": {
+          "x": "3304",
+          "y": "475"
+        }
+      },
+      {
+        "text": "\"I guess I'll go left. All roads lead to help right\"? As I walk further down the dim trail I start to hear something.\"Is that singing? Maybe someone can help me.\" I must walk towards the singing.\n\n[[next->Singing]] ",
+        "links": [
+          {
+            "name": "next",
+            "link": "Singing",
+            "pid": "6"
+          }
+        ],
+        "name": "LeftTurn1",
+        "pid": "5",
+        "position": {
+          "x": "3304",
+          "y": "600"
+        }
+      },
+      {
+        "text": "You curiously walk over to the harmonous voice. The language is foreign to you but the vocals are charming. You begin to focus on the producer of of the song. \"You're a cat\"? The figure stops their singing and alerts their attention to you. The creature has the resemblance of a cat, but is bipedal and is wearing a handmade outfit. Should I remain silent or speak?\n\n[[silent->silent1]]\n[[speak->speak1]]",
+        "links": [
+          {
+            "name": "silent",
+            "link": "silent1",
+            "pid": "7"
+          },
+          {
+            "name": "speak",
+            "link": "speak1",
+            "pid": "8"
+          }
+        ],
+        "name": "Singing",
+        "pid": "6",
+        "position": {
+          "x": "3311",
+          "y": "726"
+        }
+      },
+      {
+        "text": "I stood there puzzeled wondering what the hell I'm looking at. I begin to assess the strange life form. Subject appears to be a cat like creature with the capability of bipedal walking. Their face looks like a cat, but eyes are bigger than the adverage housecat. What should I do? Should I ask for it's name or should I ask what is this world?\n\n[[name->name]]\n[[world->WhereAmI]]",
+        "links": [
+          {
+            "name": "name",
+            "link": "name",
+            "pid": "9"
+          },
+          {
+            "name": "world",
+            "link": "WhereAmI",
+            "pid": "10"
+          }
+        ],
+        "name": "silent1",
+        "pid": "7",
+        "position": {
+          "x": "3196",
+          "y": "877"
+        }
+      },
+      {
+        "text": "I mustered up the courage to speak to this strange creature. \"What are you\"? I said. The creature stands up and mutters \"I can't bewieve it! You're a hooman\"! Although in a broken form of my language, I understood it. What should I ask it? Should I ask for it's name or should I ask what is this world?\n\n[[name->name]] \n[[world->WhereAmI]] ",
+        "links": [
+          {
+            "name": "name",
+            "link": "name",
+            "pid": "9"
+          },
+          {
+            "name": "world",
+            "link": "WhereAmI",
+            "pid": "10"
+          }
+        ],
+        "name": "speak1",
+        "pid": "8",
+        "position": {
+          "x": "3401",
+          "y": "879"
+        }
+      },
+      {
+        "text": "I ask for it's name. \"What is your name little one\"? It's eyes pop with astonishment and it says, \"My name is Binx! It is very nice to meet you hooman\". Quickly after it ask, \"What is your name\"? \"Uhh, about that... I don't really remeber\" I sadley state. \"That's okay! I can give you a nickname istead! I have three flowers right here, purple,pink, and green, which is your favorite\" Bink cheerfully replies. \"I will most definitely have to pick...\"\n\n[[purple->PurpleFlower]]\n[[pink->PinkFlower]]\n[[green->GreenFlower]]\n",
+        "links": [
+          {
+            "name": "purple",
+            "link": "PurpleFlower",
+            "pid": "11"
+          },
+          {
+            "name": "pink",
+            "link": "PinkFlower",
+            "pid": "12"
+          },
+          {
+            "name": "green",
+            "link": "GreenFlower",
+            "pid": "13"
+          }
+        ],
+        "name": "name",
+        "pid": "9",
+        "position": {
+          "x": "3174",
+          "y": "1002"
+        }
+      },
+      {
+        "text": "\"Hey pal, do you happen to know where I am\" I quickly said. The confused creature stated \"Well silly, you just so happen to be in the Overgrowth\". Confused, I stutterd \"T-The Over-Overgrowth\"? \"Yes, the Overgrowth! Mother has told me that we live in a world that is the complete opposite of some place called Earth\" explained the creature. \"Earth...that's...my home\"! Shocked, Binx said \"Wowie! You are a real hooman afterall\"! I should ask for this kind creaturs name.\n\n[[name->name]] ",
+        "links": [
+          {
+            "name": "name",
+            "link": "name",
+            "pid": "9"
+          }
+        ],
+        "name": "WhereAmI",
+        "pid": "10",
+        "position": {
+          "x": "3423",
+          "y": "1003"
+        }
+      },
+      {
+        "text": "\"This purple flower is a Poyan, or so my mother says. I think Poyan fits you perfectly! What do you think? Yes or No\" Binx offers.\n\n[[Yes->StartOfPurpleTimeline]] \n[[No->IDontLikeIt]] ",
+        "links": [
+          {
+            "name": "Yes",
+            "link": "StartOfPurpleTimeline",
+            "pid": "17"
+          },
+          {
+            "name": "No",
+            "link": "IDontLikeIt",
+            "pid": "14"
+          }
+        ],
+        "name": "PurpleFlower",
+        "pid": "11",
+        "position": {
+          "x": "3097",
+          "y": "1252"
+        }
+      },
+      {
+        "text": "\"This pink flower is an Inglace, or so my mother says. I think Inglace fits you perfectly! What do you think? Yes or No\" Binx offers.\n\n[[Yes->StartOfPinkTimeline]]\n[[No->IDontLikeIt]] ",
+        "links": [
+          {
+            "name": "Yes",
+            "link": "StartOfPinkTimeline",
+            "pid": "15"
+          },
+          {
+            "name": "No",
+            "link": "IDontLikeIt",
+            "pid": "14"
+          }
+        ],
+        "name": "PinkFlower",
+        "pid": "12",
+        "position": {
+          "x": "3298",
+          "y": "1253"
+        }
+      },
+      {
+        "text": "\"This green flower is a Kanasie, or so my mother says. I think Kanasie fits you perfectly! What do you think? Yes or No\" Binx offers.\n\n[[Yes->StartOfGreenTimeline]] \n[[No->IDontLikeIt]] ",
+        "links": [
+          {
+            "name": "Yes",
+            "link": "StartOfGreenTimeline",
+            "pid": "16"
+          },
+          {
+            "name": "No",
+            "link": "IDontLikeIt",
+            "pid": "14"
+          }
+        ],
+        "name": "GreenFlower",
+        "pid": "13",
+        "position": {
+          "x": "3496",
+          "y": "1252"
+        }
+      },
+      {
+        "text": "Bink sadley states \"Oh you don't like, that's okay you can pick again if you want. What will it be, purple, pink, or green\"?\n\n[[purple->PurpleFlower]] \n[[pink->PinkFlower]] \n[[green->GreenFlower]] ",
+        "links": [
+          {
+            "name": "purple",
+            "link": "PurpleFlower",
+            "pid": "11"
+          },
+          {
+            "name": "pink",
+            "link": "PinkFlower",
+            "pid": "12"
+          },
+          {
+            "name": "green",
+            "link": "GreenFlower",
+            "pid": "13"
+          }
+        ],
+        "name": "IDontLikeIt",
+        "pid": "14",
+        "position": {
+          "x": "3298",
+          "y": "1053"
+        }
+      },
+      {
+        "text": "\"I'm so glad you love it Inglace! I have a feeling you and me are going to be grat friends\" Bink said joyfully! \"Say Bink, do you live around these parts\" I questioned? \"Yes! My village and mother are not to far from here, you should come with me\"! \"I would love to\" I smiled. Binx's eyes and smile can speak a thousand words. We begin our walk.\n\n[[walk->OnTheRoadAgainPink]] ",
+        "links": [
+          {
+            "name": "walk",
+            "link": "OnTheRoadAgainPink",
+            "pid": "19"
+          }
+        ],
+        "name": "StartOfPinkTimeline",
+        "pid": "15",
+        "position": {
+          "x": "3298",
+          "y": "1553"
+        }
+      },
+      {
+        "text": "\"I'm so glad you love it Kanasie! I have a feeling you and me are going to be grat friends\" Bink said joyfully! \"Say Bink, do you live around these parts\" I questioned? \"Yes! My village and mother are not to far from here, you should come with me\"! \"I would love to\" I smiled. Binx's eyes and smile can speak a thousand words. We begin our walk.\n\n[[walk->OnTheRoadAgainGreen]] ",
+        "links": [
+          {
+            "name": "walk",
+            "link": "OnTheRoadAgainGreen",
+            "pid": "20"
+          }
+        ],
+        "name": "StartOfGreenTimeline",
+        "pid": "16",
+        "position": {
+          "x": "3797",
+          "y": "1253"
+        }
+      },
+      {
+        "text": "\"I'm so glad you love it Poyan! I have a feeling you and me are going to be grat friends\" Bink said joyfully! \"Say Bink, do you live around these parts\" I questioned? \"Yes! My village and mother are not to far from here, you should come with me\"! \"I would love to\" I smiled. Binx's eyes and smile can speak a thousand words. We begin our walk.\n\n[[walk->OnTheRoadAgainPurple]] ",
+        "links": [
+          {
+            "name": "walk",
+            "link": "OnTheRoadAgainPurple",
+            "pid": "18"
+          }
+        ],
+        "name": "StartOfPurpleTimeline",
+        "pid": "17",
+        "position": {
+          "x": "2798",
+          "y": "1252"
+        }
+      },
+      {
+        "text": "Bink leads me to a makeshift stone path and we follow the trail to his village. \"So Poyan, what part of earth are you from exactly\" Bink asked? \"I don't exactly remember anything of my life on Earth, it's all just one big blub\" I anwsered. \"Maybe you lost your memories when you crossed over into my world\" stated Binx. I sign \"Yeah...maybe\" As we inced further and further to the village we reach a revine. There is a bridge, but it's a Binx sized bridge. Should I try to cross on the bridge or look for another way across?\n\n[[bridge->BridgePurple]] \n[[look->AnotherPurple]] ",
+        "links": [
+          {
+            "name": "bridge",
+            "link": "BridgePurple",
+            "pid": "22"
+          },
+          {
+            "name": "look",
+            "link": "AnotherPurple",
+            "pid": "25"
+          }
+        ],
+        "name": "OnTheRoadAgainPurple",
+        "pid": "18",
+        "position": {
+          "x": "2645",
+          "y": "1252"
+        }
+      },
+      {
+        "text": "Bink leads me to a makeshift stone path and we follow the trail to his village. \"So Inglace, what part of earth are you from exactly\" Bink asked? \"I don't exactly remember anything of my life on Earth, it's all just one big blub\" I anwsered. \"Maybe you lost your memories when you crossed over into my world\" stated Binx. I sign \"Yeah...maybe\" As we inced further and further to the village we reach a revine. There is a bridge, but it's a Binx sized bridge. Should I try to cross on the bridge or look for another way across?\n\n[[bridge->BridgePink]] \n[[look->AnotherPink]] ",
+        "links": [
+          {
+            "name": "bridge",
+            "link": "BridgePink",
+            "pid": "21"
+          },
+          {
+            "name": "look",
+            "link": "AnotherPink",
+            "pid": "26"
+          }
+        ],
+        "name": "OnTheRoadAgainPink",
+        "pid": "19",
+        "position": {
+          "x": "3298",
+          "y": "1700"
+        }
+      },
+      {
+        "text": "Bink leads me to a makeshift stone path and we follow the trail to his village. \"So Kanasie, what part of earth are you from exactly\" Bink asked? \"I don't exactly remember anything of my life on Earth, it's all just one big blub\" I anwsered. \"Maybe you lost your memories when you crossed over into my world\" stated Binx. I sign \"Yeah...maybe\" As we inced further and further to the village we reach a revine. There is a bridge, but it's a Binx sized bridge. Should I try to cross on the bridge or look for another way across?\n\n[[bridge->BridgeGreen]] \n[[look->AnotherGreen]] ",
+        "links": [
+          {
+            "name": "bridge",
+            "link": "BridgeGreen",
+            "pid": "23"
+          },
+          {
+            "name": "look",
+            "link": "AnotherGreen",
+            "pid": "24"
+          }
+        ],
+        "name": "OnTheRoadAgainGreen",
+        "pid": "20",
+        "position": {
+          "x": "3945",
+          "y": "1253"
+        }
+      },
+      {
+        "text": "Concerned I said \"Uhhh Binx, will the bridge break if I try to cross\"? \"It will be no problem Inglace, that bridge is made by the the genius brains of my people. It can withstand anything!\" anwsered Bink. If he says so, I guess I will cross.\n\n[[cross->CrossBridgePink]] ",
+        "links": [
+          {
+            "name": "cross",
+            "link": "CrossBridgePink",
+            "pid": "32"
+          }
+        ],
+        "name": "BridgePink",
+        "pid": "21",
+        "position": {
+          "x": "3176",
+          "y": "1829"
+        }
+      },
+      {
+        "text": "Concerned I said \"Uhhh Binx, will the bridge break if I try to cross\"? \"It will be no problem Poyan, that bridge is made by the the genius brains of my people. It can withstand anything!\" anwsered Bink. If he says so, I guess I will cross.\n\n[[cross->CrossBridgePurple]] ",
+        "links": [
+          {
+            "name": "cross",
+            "link": "CrossBridgePurple",
+            "pid": "27"
+          }
+        ],
+        "name": "BridgePurple",
+        "pid": "22",
+        "position": {
+          "x": "2526",
+          "y": "1128"
+        }
+      },
+      {
+        "text": "Concerned I said \"Uhhh Binx, will the bridge break if I try to cross\"? \"It will be no problem Kanasie, that bridge is made by the the genius brains of my people. It can withstand anything!\" anwsered Bink. If he says so, I guess I will cross.\n\n[[cross->CrossBridgeGreen]] ",
+        "links": [
+          {
+            "name": "cross",
+            "link": "CrossBridgeGreen",
+            "pid": "30"
+          }
+        ],
+        "name": "BridgeGreen",
+        "pid": "23",
+        "position": {
+          "x": "4078",
+          "y": "1127"
+        }
+      },
+      {
+        "text": "As I examined the bridge, I decided to find another way around. \"Hey Binx, I'm gonna find another way around\" I yelled. I can hear Binx from a distance \"Okay! I'll be waiting for you on the other side, be careful Kanasie\"! It looks like there may be something over to my right.\n\n[[right->LookForSomethingElseGreen]] ",
+        "links": [
+          {
+            "name": "right",
+            "link": "LookForSomethingElseGreen",
+            "pid": "31"
+          }
+        ],
+        "name": "AnotherGreen",
+        "pid": "24",
+        "position": {
+          "x": "4076",
+          "y": "1379"
+        }
+      },
+      {
+        "text": "As I examined the bridge, I decided to find another way around. \"Hey Binx, I'm gonna find another way around\" I yelled. I can hear Binx from a distance \"Okay! I'll be waiting for you on the other side, be careful Poyan\"! It looks like there may be something over to my right.\n\n[[right->LookForSomethingElsePurple]] ",
+        "links": [
+          {
+            "name": "right",
+            "link": "LookForSomethingElsePurple",
+            "pid": "28"
+          }
+        ],
+        "name": "AnotherPurple",
+        "pid": "25",
+        "position": {
+          "x": "2526",
+          "y": "1352"
+        }
+      },
+      {
+        "text": "As I examined the bridge, I decided to find another way around. \"Hey Binx, I'm gonna find another way around\" I yelled. I can hear Binx from a distance \"Okay! I'll be waiting for you on the other side, be careful Inglace\"! It looks like there may be something over to my right.\n\n[[right->LookForSomethingElsePink]] ",
+        "links": [
+          {
+            "name": "right",
+            "link": "LookForSomethingElsePink",
+            "pid": "29"
+          }
+        ],
+        "name": "AnotherPink",
+        "pid": "26",
+        "position": {
+          "x": "3422",
+          "y": "1829"
+        }
+      },
+      {
+        "text": "I take a step forward onto the tiny bridge and start to loose balence. As I was trying to catch myself a memory popped in my head. A memory of me in some sort of training facility. I am surrounded by unfamiliar faces all wearing the same outfit as me. I SNAP back into reality and realize I am half way across the bridge. I take another step.\n\n[[step->StepTwoPurple]]",
+        "links": [
+          {
+            "name": "step",
+            "link": "StepTwoPurple",
+            "pid": "33"
+          }
+        ],
+        "name": "CrossBridgePurple",
+        "pid": "27",
+        "position": {
+          "x": "2399",
+          "y": "1052"
+        }
+      },
+      {
+        "text": "Walking along the revine showed me that there is a fallen tree that stretches over the entirety of the casam. I stepped onto the fallen giant and begin to slowly make your way across. All of the sudden a memory that was once forgoten arrives. I am in a heavily wooded area, similar to that of the Overgrowth, but more familiar. I'm with someone, I feel comfort next to them. We are walking together, hands linked tightly. Without warning, it feels as if the whole world is shaking. I can see the fear in their eyes. I SNAP backed into reality, the tree is falling! My legs started moving without me even thinking. I try to grasp the ledge and reach my arm to clench onto the ledge. I'm falling...this is the end. I will now sleep. Goodbye Binx.\n\n[[sleep->SleepPurple]]",
+        "links": [
+          {
+            "name": "sleep",
+            "link": "SleepPurple",
+            "pid": "39"
+          }
+        ],
+        "name": "LookForSomethingElsePurple",
+        "pid": "28",
+        "position": {
+          "x": "2399",
+          "y": "1452"
+        }
+      },
+      {
+        "text": "Walking along the revine showed me that there is a fallen tree that stretches over the entirety of the casam. I stepped onto the fallen giant and begin to slowly make your way across. All of the sudden a memory that was once forgoten arrives. I am in a heavily wooded area, similar to that of the Overgrowth, but more familiar. I'm with someone, I feel comfort next to them. We are walking together, hands linked tightly. Without warning, it feels as if the whole world is shaking. I can see the fear in their eyes. I SNAP backed into reality, the tree is falling! My legs started moving without me even thinking. I try to grasp the ledge and reach my arm to clench onto the ledge. I'm falling...this is the end. I will now sleep. Goodbye Binx.\n\n[[sleep->SleepPink]]",
+        "links": [
+          {
+            "name": "sleep",
+            "link": "SleepPink",
+            "pid": "40"
+          }
+        ],
+        "name": "LookForSomethingElsePink",
+        "pid": "29",
+        "position": {
+          "x": "3547",
+          "y": "1924"
+        }
+      },
+      {
+        "text": "I take a step forward onto the tiny bridge and start to loose balence. As I was trying to catch myself a memory popped in my head. A memory of me in some sort of training facility. I am surrounded by unfamiliar faces all wearing the same outfit as me. I SNAP back into reality and realize I am half way across the bridge. I take another step.\n\n[[step->StepTwoGreen]]",
+        "links": [
+          {
+            "name": "step",
+            "link": "StepTwoGreen",
+            "pid": "35"
+          }
+        ],
+        "name": "CrossBridgeGreen",
+        "pid": "30",
+        "position": {
+          "x": "4199",
+          "y": "1030"
+        }
+      },
+      {
+        "text": "Walking along the revine showed me that there is a fallen tree that stretches over the entirety of the casam. I stepped onto the fallen giant and begin to slowly make your way across. All of the sudden a memory that was once forgoten arrives. I am in a heavily wooded area, similar to that of the Overgrowth, but more familiar. I'm with someone, I feel comfort next to them. We are walking together, hands linked tightly. Without warning, it feels as if the whole world is shaking. I can see the fear in their eyes. I SNAP backed into reality, the tree is falling! My legs started moving without me even thinking. I try to grasp the ledge and reach my arm to clench onto the ledge. I'm falling...this is the end. I will now sleep. Goodbye Binx.\n\n[[sleep->SleepGreen]]",
+        "links": [
+          {
+            "name": "sleep",
+            "link": "SleepGreen",
+            "pid": "41"
+          }
+        ],
+        "name": "LookForSomethingElseGreen",
+        "pid": "31",
+        "position": {
+          "x": "4198",
+          "y": "1474"
+        }
+      },
+      {
+        "text": "I take a step forward onto the tiny bridge and start to loose balence. As I was trying to catch myself a memory popped in my head. A memory of me in some sort of training facility. I am surrounded by unfamiliar faces all wearing the same outfit as me. I SNAP back into reality and realize I am half way across the bridge. I take another step.\n\n[[step->StepTwoPink]]",
+        "links": [
+          {
+            "name": "step",
+            "link": "StepTwoPink",
+            "pid": "34"
+          }
+        ],
+        "name": "CrossBridgePink",
+        "pid": "32",
+        "position": {
+          "x": "3048",
+          "y": "1925"
+        }
+      },
+      {
+        "text": "Another step, another memory. This time I am in an office setting. I'm setting in an aged chair facing an aged man in a suit. He wants me to sign something. I can't make out what what the thing says, only one word is visable \"Aleanis\". I SNAP back, confused at the sight that I crossed the bridge with Binx by my side. What was that? Who am I? Why am I here? \"Are you just going to stand there like you are on kalanip Poyan, we got to keep moving\" said Binx! \"...Yeah...sorry, we should keep moving\" I stuttered. I then walk with Binx.\n\n[[walk->WalkWithBinxPurple]]",
+        "links": [
+          {
+            "name": "walk",
+            "link": "WalkWithBinxPurple",
+            "pid": "36"
+          }
+        ],
+        "name": "StepTwoPurple",
+        "pid": "33",
+        "position": {
+          "x": "2273",
+          "y": "1048"
+        }
+      },
+      {
+        "text": "Another step, another memory. This time I am in an office setting. I'm setting in an aged chair facing an aged man in a suit. He wants me to sign something. I can't make out what what the thing says, only one word is visable \"Aleanis\". I SNAP back, confused at the sight that I crossed the bridge with Binx by my side. What was that? Who am I? Why am I here? \"Are you just going to stand there like you are on kalanip Inglace, we got to keep moving\" said Binx! \"...Yeah...sorry, we should keep moving\" I stuttered. I then walk with Binx.\n\n[[walk->WalkWithBinxPink]]",
+        "links": [
+          {
+            "name": "walk",
+            "link": "WalkWithBinxPink",
+            "pid": "37"
+          }
+        ],
+        "name": "StepTwoPink",
+        "pid": "34",
+        "position": {
+          "x": "3044",
+          "y": "2047"
+        }
+      },
+      {
+        "text": "Another step, another memory. This time I am in an office setting. I'm setting in an aged chair facing an aged man in a suit. He wants me to sign something. I can't make out what what the thing says, only one word is visable \"Aleanis\". I SNAP back, confused at the sight that I crossed the bridge with Binx by my side. What was that? Who am I? Why am I here? \"Are you just going to stand there like you are on kalanip Kanasie, we got to keep moving\" said Binx! \"...Yeah...sorry, we should keep moving\" I stuttered. I then walk with Binx.\n\n[[walk->WalkWithBinxGreen]]",
+        "links": [
+          {
+            "name": "walk",
+            "link": "WalkWithBinxGreen",
+            "pid": "38"
+          }
+        ],
+        "name": "StepTwoGreen",
+        "pid": "35",
+        "position": {
+          "x": "4328",
+          "y": "1029"
+        }
+      },
+      {
+        "text": "Binx and I continue walking and we make it to the village. He shows me all his friends, his mother, and the whole place. He is excited to have me here. \"I'm glad to have you as a friend Poyan\" he said. \"I'm happy to be you friend as well Bi...\" I collasp. I see the final piece of the puzzle. I know who I am. I am Ingrid Hearts, stolen from my home and partner. I watched as they were crushed by a tree during the explosion. I was forced into a contract by the corperation Aleanis to harvest energy from other world to power there illusion of a false deity. I was chosen because of the powerful energy I was given at birth. The thing is, I'm am not there puppet anymore. I will protect this land at all cost. Aleanis will fall by my hands and my hands alone. I stand up, and look around. Binx is looking at me, \"Are you okay Poyan\" he asked? \"Yeah, I could really go for some food at this moment. What do you say, wanna stuff our bellies?\" I said as I walk forward. \"Yeah! Let's go and see mother!\" yelled Binx as he jumps for joy. I'm going to be here for awhile, might as well make this my new home. My home in the Overgrowth. ",
+        "name": "WalkWithBinxPurple",
+        "pid": "36",
+        "position": {
+          "x": "1996",
+          "y": "1273"
+        }
+      },
+      {
+        "text": "Binx and I continue walking and we make it to the village. He shows me all his friends, his mother, and the whole place. He is excited to have me here. \"I'm glad to have you as a friend Inglace\" he said. \"I'm happy to be you friend as well Bi...\" I collasp. I see the final piece of the puzzle. I know who I am. I am Ingrid Hearts, stolen from my home and partner. I watched as they were crushed by a tree during the explosion. I was forced into a contract by the corperation Aleanis to harvest energy from other world to power there illusion of a false deity. I was chosen because of the powerful energy I was given at birth. The thing is, I'm am not there puppet anymore. I will protect this land at all cost. Aleanis will fall by my hands and my hands alone. I stand up, and look around. Binx is looking at me, \"Are you okay Inglace\" he asked? \"Yeah, I could really go for some food at this moment. What do you say, wanna stuff our bellies?\" I said as I walk forward. \"Yeah! Let's go and see mother!\" yelled Binx as he jumps for joy. I'm going to be here for awhile, might as well make this my new home. My home in the Overgrowth. ",
+        "name": "WalkWithBinxPink",
+        "pid": "37",
+        "position": {
+          "x": "3301",
+          "y": "2375"
+        }
+      },
+      {
+        "text": "Binx and I continue walking and we make it to the village. He shows me all his friends, his mother, and the whole place. He is excited to have me here. \"I'm glad to have you as a friend Kanasie\" he said. \"I'm happy to be you friend as well Bi...\" I collasp. I see the final piece of the puzzle. I know who I am. I am Ingrid Hearts, stolen from my home and partner. I watched as they were crushed by a tree during the explosion. I was forced into a contract by the corperation Aleanis to harvest energy from other world to power there illusion of a false deity. I was chosen because of the powerful energy I was given at birth. The thing is, I'm am not there puppet anymore. I will protect this land at all cost. Aleanis will fall by my hands and my hands alone. I stand up, and look around. Binx is looking at me, \"Are you okay Kanasie\" he asked? \"Yeah, I could really go for some food at this moment. What do you say, wanna stuff our bellies?\" I said as I walk forward. \"Yeah! Let's go and see mother!\" yelled Binx as he jumps for joy. I'm going to be here for awhile, might as well make this my new home. My home in the Overgrowth. ",
+        "name": "WalkWithBinxGreen",
+        "pid": "38",
+        "position": {
+          "x": "4604",
+          "y": "1277"
+        }
+      },
+      {
+        "text": "Is this where I die? Will I ever make it back to Earth? I see something in the distance, no someone. It was the person from my memories, they are reaching out to me. I lift my arm and link fingers with them, I very familier feeling brings me comfort. I know this person, they are my partner. Light fills my eyes and I look around, I'm at the othher side of the revine. Binx is hugging my leg crying. \"I thought you were dead Poyan! That was until I saw you float, your hair turned purple and light was coming out of you eyes\" Binx frantically said. \"I don't know what happened pal, all I can say is I feel happy. Let's keep moving, you don't want to keep your mother waiting\" I peacefully stated.\n\n[[keep moving->WalkWithBinxPurple]] ",
+        "links": [
+          {
+            "name": "keep moving",
+            "link": "WalkWithBinxPurple",
+            "pid": "36"
+          }
+        ],
+        "name": "SleepPurple",
+        "pid": "39",
+        "position": {
+          "x": "2271",
+          "y": "1454"
+        }
+      },
+      {
+        "text": "Is this where I die? Will I ever make it back to Earth? I see something in the distance, no someone. It was the person from my memories, they are reaching out to me. I lift my arm and link fingers with them, I very familier feeling brings me comfort. I know this person, they are my partner. Light fills my eyes and I look around, I'm at the othher side of the revine. Binx is hugging my leg crying. \"I thought you were dead Inglace! That was until I saw you float, your hair turned pink and light was coming out of you eyes\" Binx frantically said. \"I don't know what happened pal, all I can say is I feel happy. Let's keep moving, you don't want to keep your mother waiting\" I peacefully stated.\n\n[[keep moving->WalkWithBinxPink]] ",
+        "links": [
+          {
+            "name": "keep moving",
+            "link": "WalkWithBinxPink",
+            "pid": "37"
+          }
+        ],
+        "name": "SleepPink",
+        "pid": "40",
+        "position": {
+          "x": "3547",
+          "y": "2049"
+        }
+      },
+      {
+        "text": "Is this where I die? Will I ever make it back to Earth? I see something in the distance, no someone. It was the person from my memories, they are reaching out to me. I lift my arm and link fingers with them, I very familier feeling brings me comfort. I know this person, they are my partner. Light fills my eyes and I look around, I'm at the othher side of the revine. Binx is hugging my leg crying. \"I thought you were dead Kanasie! That was until I saw you float, your hair turned green and light was coming out of you eyes\" Binx frantically said. \"I don't know what happened pal, all I can say is I feel happy. Let's keep moving, you don't want to keep your mother waiting\" I peacefully stated.\n\n[[keep moving->WalkWithBinxGreen]] ",
+        "links": [
+          {
+            "name": "keep moving",
+            "link": "WalkWithBinxGreen",
+            "pid": "38"
+          }
+        ],
+        "name": "SleepGreen",
+        "pid": "41",
+        "position": {
+          "x": "4323",
+          "y": "1474"
+        }
+      }
+    ],
+    "name": "The Sun Rises in the North",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.11",
+    "ifid": "41B8B2A6-A19B-4314-9F61-098086AF1022"
+  }
