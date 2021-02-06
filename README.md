@@ -4,10 +4,10 @@ Project 1 for MSCH-C220: Interactive Fiction Game
 # Project Name:
     Project 01—Interactive Fiction: The Sun Rises in the North
 
-Context and date
+# Context and date
     February 4, 2021
 
-Description
+## Description: 
     Implement a Twine project (exported as a JSON file) in a home-grown game engine written in Python
 
 ## Implementation
